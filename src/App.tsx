@@ -1,15 +1,16 @@
-import { Parent } from './components/Hooks-Learning/usecallback/Parent'
-import './App.css'
-import { Form } from './components/Hooks-Learning/react-hook-form/Form'
+import "./App.css"
+import { FetchData } from "./components/DataFetching/FetchData";
+import { UseCallbackHook } from "./components/Hooks-Learning/useCallbackHook/UseCallbackHook";
+import { UseMemoHook } from './components/Hooks-Learning/useMemoHook/UseMemoHook'
 
 function App() {
 
 
   return (
     <>
-      <Form />
+      <FetchData />
     </>
   )
 }
 
-export default App
+export default App;

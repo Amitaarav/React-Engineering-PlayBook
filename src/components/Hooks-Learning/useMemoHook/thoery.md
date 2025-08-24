@@ -1,0 +1,1 @@
+useMemo is hook that memoizes a value and returns the same value until any of he dependencies in the dependency array changes, until then it will recompute a new value.
