@@ -1,14 +1,14 @@
 import "./App.css"
-import { FetchData } from "./components/DataFetching/FetchData";
-import { UseCallbackHook } from "./components/Hooks-Learning/useCallbackHook/UseCallbackHook";
-import { UseMemoHook } from './components/Hooks-Learning/useMemoHook/UseMemoHook'
-
+// import ExampleComponent from "./components/Hooks-Learning/useEffectHook/ExampleTwo";
+// import Counter from "./components/Hooks-Learning/useStateHook/CounterFunc";
+import AppOne from "./Machine-Coding/Toast-notification/AppOne"
+import Idempotend from "./components/Idempotent-React/Idempotent";
 function App() {
 
 
   return (
     <>
-      <FetchData />
+        <Idempotend/>
     </>
   )
 }

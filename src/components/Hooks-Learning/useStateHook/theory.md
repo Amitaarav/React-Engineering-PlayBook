@@ -1,0 +1,1 @@
+## Components are themselves JavaScript functions, independent and reusable bits of code.

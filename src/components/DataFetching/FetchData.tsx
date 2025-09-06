@@ -64,7 +64,7 @@ export const FetchData = () => {
             <button onClick={()=> setPage(page + 1)}>Increase Page: {page}</button>
             {isLoading && <div>Loading...</div>}
             {
-                isLoading && 
+                !isLoading && 
                 <ul>
                     {
                         posts.map((post)=>{
