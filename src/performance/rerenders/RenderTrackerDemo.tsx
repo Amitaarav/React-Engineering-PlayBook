@@ -15,4 +15,4 @@ const RenderTrackerDemo  = () => {
     )
 }
 
-export default RenderTrackerDemo
+export default RenderTrackerDemo;
